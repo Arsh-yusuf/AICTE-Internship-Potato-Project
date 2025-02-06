@@ -24,3 +24,8 @@ Performance metrics (accuracy, precision, recall, confusion matrix) are analyzed
 A web application is built using Streamlit to allow users to upload images of potato leaves for classification.
 The uploaded image is preprocessed and passed to the trained model for prediction.
 The result (predicted disease category) is displayed to the user.
+
+# How to execute the project
+First make sure all the version of libraries installed are compatible with each other. I have mentioned the versions used in "requirements.txt". In order to run the project make sure you are in the correct directory of main.py and run the following command:
+
+**streamlit run main.py**
